@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-namespace PlayerData
+namespace Player
 {
     public class PlayerData : SingletonGeneric<PlayerData>
     {
