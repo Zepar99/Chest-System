@@ -71,12 +71,12 @@ namespace Chests
 
         public void showUnlockTime(int time)
         {
-            chestTimerTxt.text = "Unlock Time: " + time.ToString();
+            chestTimerTxt.text = time.ToString();
         }
 
         public void showUnlockGems(int gems)
         {
-            unlockGemsTxt.text = "Unlock Gems:" + gems.ToString();
+            unlockGemsTxt.text = gems.ToString();
         }
     }
 }

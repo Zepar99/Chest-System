@@ -25,7 +25,7 @@ namespace Messages
             }
             else
             {
-                msg = "Start Time!";
+                msg = "Start Timer!";
                 timerBtnTxt.text = msg;
             }
 

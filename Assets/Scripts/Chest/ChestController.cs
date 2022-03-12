@@ -97,7 +97,7 @@ namespace Chests
             }
             if (isLocked)
             {
-                msg = "Chest is Locked!";
+                msg = "Unlock This Chest!";
                 ChestService.Instance.setChestView(chestView);
                 MessageManager.Instance.displayMessageWithBtns(msg, unlockWithGems, addedToUnlockingList);
             }
@@ -142,6 +142,13 @@ namespace Chests
             {
                 chestUnlocked();
             }
+        }
+
+        public async void UnlockingWithGem()
+        {
+            isLocked = true;
+            await new WaitForSeconds(5f);
+
         }
     }
 }
