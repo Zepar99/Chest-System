@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chestType: 4
   unlockTime: 120
-  minCoins: 1500
-  maxCoins: 5000
-  minGems: 100
-  maxGems: 500
+  minCoins: 1000
+  maxCoins: 1200
+  minGems: 80
+  maxGems: 100

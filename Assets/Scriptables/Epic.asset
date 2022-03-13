@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Epic
   m_EditorClassIdentifier: 
   chestType: 3
-  unlockTime: 50
-  minCoins: 500
-  maxCoins: 100
-  minGems: 50
-  maxGems: 100
+  unlockTime: 60
+  minCoins: 600
+  maxCoins: 800
+  minGems: 45
+  maxGems: 60
